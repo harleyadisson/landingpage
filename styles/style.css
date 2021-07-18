@@ -1,0 +1,89 @@
+html,body{margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100hv;
+}
+#top{
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77702102863.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.images {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    
+}
+.destaque:hover {
+    font-weight: bold; 
+}
+.destaque {
+    color: white;
+    text-align: center;
+}
+.destaques {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.conteudo{
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.conteudo h3{
+    color: crimson (236, 116, 4);
+    text-align: center;
+}
+#title {
+    color: white;
+    padding: 6px 12px;
+}
+.conteudo p{text-align: center; color: rgb(255, 255, 255);}
+
+.formulario{
+    background: rgba(248, 245, 62, 0.582);
+    border: crimson 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 9px 0px;
+}
+.formulario label{display: block;}
+.formulario button{
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+    background: crimson;
+    border: none;
+    padding: 20px;
+    border-radius: 200px;
+    color: white;
+}
+.conteudo-bottom{
+    background-color: #090a38;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 350px;
+}
+
+footer {
+    text-align: center;
+}

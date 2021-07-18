@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK-FRIDAY-Travel!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="scripts/addToLocalStorage.js"></script>
+</head>
+<body>
+    <section id="top">
+        <div class="logo">
+            <img src="https://fbcd.co/images/products/d35331b3a2008938bd53048159eaaa67_resize.png" alt="Planet Travel">
+        </div>
+        <div class="conteudo">
+            <div>
+                <h3>As melhores condições para sua viagem dos sonhos.</h3>
+                <p>Hora de arrumar as malas e viajar!</p>
+                <p>Ofertas exclusivas com até 50% de desconto</p>
+                <p>Dia 31/07 BLACK FRIDAY</p>
+            </div>
+            <div>
+                <form class="formulario">
+                    <input id="nome" type="text" name="nome" placeholder="Nome e Sobrenome">
+                    <input id="email" type="email" name="email" placeholder="E-mail">
+                    <label>Preferência por destinos:</label>
+                    <select id="option">
+                        <option>Todos</option>
+                        <option>Destinos Nacionais</option>
+                        <option>Destinos Internacionais</option>
+                    </select>
+
+                    <div>
+                        <input type="checkbox" id="termos" name="aceite"
+                               checked>
+                        <label for="aceite">Aceito os termos e condições</label>
+                      </div>
+                    
+                    <button onclick="addToLocalStorage(event)" name="enviar">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id = "baixo"></section>
+
+    <div class="conteudo-bottom">
+        <div class="info">
+            <h3 id="title">Selecione uma das opções abaixo e escolha sua preferência:</h3>
+            <div class="destaques">
+                <div>
+                    <img class="images" src="images/hospedagem.jpg" alt="">
+                    <p class="destaque">Apenas Hospedagem</p>
+                </div>
+                <div>
+                    <img class="images" src="images/passagem.jpeg" alt="">
+                    <p class="destaque">Apenas Passagens Áereas</p>
+                </div>
+                <div>
+                    <img class="images" src="images/passagem_hospedagem.jpeg" alt="">
+                    <p class="destaque">Passagem Áerea + Hospedagem</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>Desenvolvido por: Harley Adisson</footer>
+</html>
